@@ -1,0 +1,28 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700');
+@import "header.css";
+@import "top-section.css";
+@import "about.css";
+@import "price.css";
+@import "booking.css";
+@import "gallery.css";
+@import "bottom-section.css";
+
+
+
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .container {
+        width: 100%;
+    }
+}

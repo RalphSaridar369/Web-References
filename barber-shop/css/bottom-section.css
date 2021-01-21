@@ -1,0 +1,52 @@
+.bottom {
+    padding: 70px 200px;
+    background-color: #0C0C0C;
+    color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.bottom .links h5,.social h5, .payments h5, .contact h5 {
+    margin-bottom: 20px;
+}
+
+.bottom .links ul li{
+    margin-top: 10px;
+}
+
+.bottom .social i, .payments i {
+    margin: 0 7px;
+    font-size: 1.1rem;
+    color: #AEAEAE;
+}
+
+.bottom .contact p {
+    line-height: 1.5;
+    color: #AEAEAE;
+}
+
+.bottom .contact .email {
+    color: #F4F4F4;
+}
+
+.bottom .contact .contact-info {
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .bottom {
+        flex-direction: column;
+        padding: 70px 0; 
+    }
+    
+    .links, .social, .payments, .contact {
+        margin-bottom: 40px; 
+    }
+}
